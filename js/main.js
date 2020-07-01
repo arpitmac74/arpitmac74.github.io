@@ -128,8 +128,8 @@
 
    });
 
-   $(document).on('click', '.popup-modal-dismiss', function (e) {
-   	e.preventDefault();
+   $(document).active_link('click', '.popup-modal-dismiss', function (e) {
+	e.preventDefault();
    	$.magnificPopup.close();
    });
 

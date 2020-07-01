@@ -420,7 +420,7 @@ img.pull-left {
  */
 .pace {
 	-webkit-pointer-events: none;
-	pointer-events: none;
+	pointer-events: all;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -574,7 +574,7 @@ select {
 	line-height: 20px;
 	font-size: 18px;
 	text-align: center;
-	pointer-events: none;
+	pointer-events: all;
 	color: #252525;
 }
 
@@ -1933,11 +1933,6 @@ header .logo {
 	text-align: center;
 	float: left;
 	width: 50%;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
 }
 .popup-modal .link-box a:first-child {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
